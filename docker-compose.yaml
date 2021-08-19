@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  nginx:
+    container_name: "rakib_udemy_nginx"
+    build:
+      context: .
+    ports:
+      - "8080:80"
